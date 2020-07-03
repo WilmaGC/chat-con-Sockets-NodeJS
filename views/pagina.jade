@@ -1,0 +1,16 @@
+html
+    head
+        title Wilma Gutierrez Catari PARALELO C
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+        script(src ="/chat.js")
+        script(src="/socket.io/socket.io.js")
+    body
+        #content(style="width: 500px; height: 300px; margin: 0 0 20px 0; border: 1px solid #999; overflow-y: scroll")
+        controls 
+        span #[b nombre]
+        input#name(style="width: 350px")
+        p #[b mensaje]
+        textarea#field(style="width: 400px;")
+        br
+        br
+        input#send(type="button", value="Enviar")
